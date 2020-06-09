@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="130652" started-at="2020-06-08T06:15:47Z" finished-at="2020-06-08T06:17:57Z">
+    <groups>
+      <group name="seetest">
+        <method signature="TC_BuyProduct.test(java.lang.String)[pri:0, instance:com.amazonmshop.testscenarios.TC_BuyProduct@25b485ba]" name="test" class="com.amazonmshop.testscenarios.TC_BuyProduct"/>
+      </group> <!-- seetest -->
+    </groups>
+    <test name="Test" duration-ms="130652" started-at="2020-06-08T06:15:47Z" finished-at="2020-06-08T06:17:57Z">
+      <class name="com.amazonmshop.testscenarios.TC_BuyProduct">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazonmshop.testscenarios.TC_BuyProduct@25b485ba]" name="setUp" is-config="true" duration-ms="175" started-at="2020-06-08T06:15:47Z" finished-at="2020-06-08T06:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.amazonmshop.testscenarios.TC_BuyProduct@25b485ba]" name="initializeTest" is-config="true" duration-ms="1402" started-at="2020-06-08T06:15:47Z" finished-at="2020-06-08T06:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.amazonmshop.testscenarios.TC_BuyProduct@25b485ba]" name="test" duration-ms="89220" started-at="2020-06-08T06:15:48Z" finished-at="2020-06-08T06:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[health drinks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="endTestCase()[pri:0, instance:com.amazonmshop.testscenarios.TC_BuyProduct@25b485ba]" name="endTestCase" is-config="true" duration-ms="39779" started-at="2020-06-08T06:17:17Z" finished-at="2020-06-08T06:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazonmshop.testscenarios.TC_BuyProduct@25b485ba]" name="tearDown" is-config="true" duration-ms="11" started-at="2020-06-08T06:17:57Z" finished-at="2020-06-08T06:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazonmshop.testscenarios.TC_BuyProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
